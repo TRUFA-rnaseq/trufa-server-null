@@ -14,3 +14,9 @@ frontend.
 
 This null version is intended as mocked library to test TRUFA web and no real
 workflows are done.
+
+* Fast Install
+
+  Copy this repository in the same host server that the TRUFA web. Edit the
+  /config.py/ file from the TRUFA web (setting the variables ~LAUNCHER_TOOL~ and
+  ~LAUNCHER_LIB~) to point at this repository.
