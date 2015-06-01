@@ -17,6 +17,13 @@ workflows are done.
 
 * Fast Install
 
-  Copy this repository in the same host server that the TRUFA web. Edit the
-  /config.py/ file from the TRUFA web (setting the variables ~LAUNCHER_TOOL~ and
-  ~LAUNCHER_LIB~) to point at this repository.
+  Copy this repository in the same host server that the TRUFA web. The mock
+  service is implemented on /server.py/. You can start it on a desired port
+  with:
+
+  #+begin_src bash
+  python server.py 6661
+  #+end_src
+
+  Edit the /config.py/ file from the TRUFA web (setting the variable
+  ~LAUNCHER_SERVICE~) to point to the service host and port.
